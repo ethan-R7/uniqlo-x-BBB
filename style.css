@@ -1,0 +1,168 @@
+.hero-section {
+    background-image: url("Big-Baller-Brand.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 15px;
+    background-color: red;
+    margin-left: 0;
+
+}
+
+.banner > p {
+   position: absolute;
+
+}
+
+.icon-div {
+    flex: 1;
+    margin-left: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.header > img {
+    width: 60px;
+    height: auto;
+    position: absolute;
+}
+
+.left-icons {
+    margin-left: 0;
+    flex: 1;
+}
+
+.right-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vw;
+}
+
+
+
+.hero-section > button {
+    background-color: #161313;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+ .hero-section > button:hover {
+    opacity: 1
+    }
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+.card {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 5px solid red;
+    border-radius: 50px;
+    margin: 20px;
+    overflow: hidden;
+    
+}
+
+.card-img {
+    flex: 1;
+    object-position: center;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: white;
+    
+    /* The image used */
+    background-image: url("chinohills-ballbros.jpeg");
+      
+    /* Set a specific height */
+    min-height: 800px;
+      
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.footer {
+    display: flex;
+    padding: 0px 30px;
+    gap: 20px;
+    color: white;
+    background-color: black;
+
+}
+
+.info-section {
+    flex: 2;
+}
+
+.email-section {
+    flex: 5;
+}
+
+.contact-section {
+    flex: 5;
+}
+
+.info-section  ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ a {
+    text-decoration: none;
+    color: white;
+}
